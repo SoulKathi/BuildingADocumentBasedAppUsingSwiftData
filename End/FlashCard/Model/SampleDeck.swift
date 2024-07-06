@@ -5,6 +5,8 @@ Abstract:
 Sample cards to use during development.
 */
 
+import Foundation
+
 struct SampleDeck {
     static var contents: [Card] = [
         Card(front: "Open Settings in a single click", back: "SettingsLink"),
@@ -17,6 +19,7 @@ struct SampleDeck {
         Card(front: "Set the background of a container view", back: "containerBackground(_:for:)"),
         Card(front: "Customize table column visibility and reordering", back: "TableColumnCustomization"),
         Card(front: "Disable selectability of an item in a List or Table", back: "selectionDisabled(_:)"),
-        Card(front: "Create paged scroll views", back: "scrollTargetBehavior(_:)")
+        Card(front: "Create paged scroll views", back: "scrollTargetBehavior(_:)"),
+        Card(front: "Test card front", back: "Test card back")
     ]
 }
